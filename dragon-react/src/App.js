@@ -18,14 +18,12 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <NumberToggle number={ this.state.iterations } change={ this.toggleChanged } />
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <Dragon iterations={ this.state.iterations } />
-      </div>
+      <React.Fragment>
+      <header className="header">
+        <NumberToggle number={ this.state.iterations } change={ this.toggleChanged } />
+      </header>
+      <Dragon iterations={ this.state.iterations } />
+      </React.Fragment>
     );
   }
 }

@@ -1,0 +1,10 @@
+{
+  "name": "dragon",
+  "version": "1.0.0",
+  "description": "curve",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Graham Troyer-Joy"
+}
